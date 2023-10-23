@@ -1,0 +1,148 @@
+/* Reset some default styles to ensure consistent rendering */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Navigation bar styles (you can create a navigation bar if needed) */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+/* Form styles */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* About Page styles */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Gallery Page styles (customize as needed) */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 28px;
+    }
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+        font-size: 14px;
+    }
+    form input[type="submit"] {
+        font-size: 16px;
+    }
+}
+
+/* Additions for the Home Page */
+.home-header {
+    background: url('images/home-background.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.home-header h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.home-header p {
+    font-size: 24px;
+}
+
+.home-intro {
+    background-color: #f7f7f7;
+    padding: 40px;
+    text-align: center;
+}
+
+.home-intro h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.home-intro p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
