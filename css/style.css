@@ -525,6 +525,10 @@ a:focus {
   background-color: #007fa4;
 }
 
+.activities_section i {
+  color: #fff;
+}
+
 .about_section {
   background-color: #fff;
   color: #000;
