@@ -1,345 +1,447 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>BostonBIAS</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
 
-<head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-  <link rel="shortcut icon" href="images/favicon.png" type="">
-
-  <title> BostonBIAS | Home </title>
-
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-
-  <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-
-  <!--owl slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-
-  <!-- font awesome style -->
-  <link href="css/font-awesome.min.css" rel="stylesheet" />
-
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
-
-</head>
-
-<body>
-
-  <div class="main_area">
-
-    <div class="main_bg_box">
-      <div class="bg_img_box">
-        <img src="images/home-bg.png" alt="">
-      </div>
-    </div>
-
-    <!-- header section strats -->
-    <header class="header_section">
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
-            <span>
-              BostonBIAS
-            </span>
-          </a>
-
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class=""> </span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#activities">Activities</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#members">Members</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#resources">Resources</a>
-              </li>
-            </ul>
-          </div>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">BostonBIAS</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#activities">Activities</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#members">Members</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#stay-connected">Stay Connected</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-      </div>
-    </header>
-    <!-- end header section -->
-
-
-    <!-- slider section -->
-
-    <section id="home" class="slider_section">
-        <div id="customCarousel1" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="container ">
-                <div class="row">
-                  <div class="col-12">
-                    <div class="detail-box">
-                      <h1>
-                        Welcome to <br>
-                        BostonBIAS!
-                      </h1>
-                      <h5 class="text-justify">
-                        BostonBIAS is a community for Bio-image Analysts in the Boston area, aimed at promoting collaboration, 
-                        knowledge sharing, and innovation. Taking cues from organizations like Glo-BIAS, we provide a space for 
-                        analysts to discuss, share insights, and start joint projects. Our objective is to gather input from BIAS 
-                        users across various settings, from core facilities to research collaborations, to better understand and 
-                        shape the role of bioimage analysts in Boston's scientific community. BostonBIAS is open to everyone interested 
-                        in bio-image analysis, regardless of their experience level.
-                      </h5>
-                    </div>
-                  </div>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-6" src="assets/logos/logo.png" alt="..." />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading mb-0">BostonBIAS</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
                 </div>
-              </div>
-            </div>
-        </div>
-
-  
-      </section>
-  </div>
-
-
-   <!-- activities section -->
-   <section id="activities" class="activities_section layout_padding">
-    <div class="activities_container">
-      <div class="container ">
-        <div class="heading_container heading_center">
-          <h2>
-            Upcoming Events
-          </h2>
-          
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="activities_section_past layout_padding">
-    <div class="activities_container">
-      <div class="container ">
-        <div class="heading_container heading_center">
-          <h2>
-            Past Events
-          </h2>
-          <p>
-          </p>
-        </div>
-        <details> <summary>2023</summary>
-          <div class="row">
-            <div class="col-md-2">
-              <div class="box">
-                <h2>Dec 1st <br>  2023</h2>
-              </div>
-            </div>
-            <div class="col-md-10">
-              <div class="detail-box">
-                <h1>Minisymposium: Deep Learning for Bioimage Analysis</h1>
-                <p>
-                  Join us for an exciting series of presentations by experts in bioimage analysis at our hybrid event taking place on December 1st from 9AM to 3PM at the Broad Auditorum in Cambridge, Massachusetts. To secure a spot, register below.
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">
+                    BostonBIAS is a community established to unite and empower Bio-image Analysts located in the greater Boston area. 
+                    We are committed to fostering collaboration, knowledge exchange, and innovation. Inspired by the principles of global 
+                    organizations like Glo-BIAS, we offer a platform where Bio-image Analysts can engage in discussions, share insights, 
+                    and embark on exciting cooperative projects. Our goal is to accumulate the experiences and needs of BIAS users, from 
+                    core facilities to collaborative research ventures, and help define the evolving role of bioimage analysts in the Boston 
+                    scientific landscape. Whether you're a seasoned professional or a budding enthusiast, BostonBIAS welcomes all who are 
+                    eager to explore and contribute to the world of bio-image analysis.
                 </p>
-                  <button type="button" class="btn btn-primary">
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                      <i class="fa fa-hand-o-up"> Learn more </i>
-                    </a>
-                  </button>
-              </div>
             </div>
-          </div>
-        </details>
-    </div>
-  </section>
-  <!-- end activities section -->
-
-
-
-    <!-- members section -->
-    <section id="members" class="members_section layout_padding">
-      <div class="container-fluid">
-        <div class="heading_container heading_center">
-          <h2 class="">
-            Members
-          </h2>
-        </div>
-  
-        <div class="members_container">
-          <div class="row">
-            <div class="col-lg-3 col-sm-6">
-              <div class="box ">
-                <div class="img-box">
-                  <img src="images/broad.jpeg" class="img1" alt="">
+        </header>
+        <!-- activities Section-->
+        <section class="page-section activities" id="activities">
+            <div class="container">
+                <!-- activities Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Activities</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
                 </div>
-                <div class="detail-box">
-                  <h5>
-                    Broad Institute
-                  </h5>
-                  <p>
-                    MIT and Harvard University
-                  </p>
+                <!-- activities Grid Items-->
+                <div class="row">
+                    <div class="col-12"><h4>Upcoming activities will be posted here. Stay Tuned!</h4></div>
+                    <!-- activities Item 1
+                    <div class="col-lg-4">
+                        <div class="activities-item mx-auto" data-bs-toggle="modal" data-bs-target="#activitiesoModal1">
+                            <div class="activities-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="activities-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/image.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <h1>Stay tuned for upcoming events!</h1>
+                        <h5>Soon</h5>
+                        <p>
+                        </p>
+                        <a href="link-to-event-1-page" class="btn btn-primary">Learn More</a>
+                    </div>-->
                 </div>
-                <div class="social_box">
-                  <a href="http://broadinstitute.org" target="_blank" rel="noopener noreferrer">
-                    <i class="fa fa-globe" aria-hidden="true"></i>
-                  </a>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                  </a>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-lg-3 col-sm-6">
-              <div class="box ">
-                <div class="img-box">
-                  <img src="images/iac.png" class="img1" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Image Analysis Collaboratory
-                  </h5>
-                  <p>
-                    Harvard Medical School
-                  </p>
-                </div>
-                <div class="social_box">
-                  <a href="http://iac.hms.harvard.edu" target="_blank" rel="noopener noreferrer">
-                    <i class="fa fa-globe" aria-hidden="true"></i>
-                  </a>
-                  <a href="https://www.google.com/maps/place/Image+Analysis+Collaboratory+(IAC)/@42.3359916,-71.1076402,17z/data=!3m1!4b1!4m6!3m5!1s0x89e37921a7468539:0x6297f89476ffcceb!8m2!3d42.3359877!4d-71.1050653!16s%2Fg%2F11vf7v_wy8?entry=ttu" target="_blank" rel="noopener noreferrer">
-                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                  </a>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-  
+                
+                <button class="btn past-act" type="button" data-bs-toggle="collapse" data-bs-target="#pastActivities" aria-expanded="false" aria-controls="pastActivities">
+                    Past Activities
+                </button>
             
-  
-  
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- end members section -->
-  
-    <section class="connect_section layout_padding">
-      <div class="connect_container">
-        <div class="container ">
-          <div class="heading_container heading_center">
-            <h2>
-              Stay Connected
-            </h2>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="box">
-                <div class="detail-box">
-                  <h4>Join our google group</h4>
-                  <button type="button" class="btn btn-primary">
-                    <a href="https://groups.google.com/g/bostonbias" target="_blank" rel="noopener noreferrer">
-                      <i class="fa fa-group" aria-hidden="true"> Google Group </i>
-                    </a>
-                  </button>
-                </div>
-              </div>
+                <!-- Container for Past Activities -->
+                <div class="collapse" id="pastActivities">
+                    <div class="past-activity">
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="assets/img/image.jpg" alt="Event Poster" class="img-fluid">
+                            </div>
+                            <div class="col-10">
+                                <h5>Minisymposium: Deep Learning for Bioimage Analysis</h5>
+                                <p>December 1, 2023</p>
+                                <a href="http://broad.io/DL_Minisymposium" class="btn btn-primary" target="_blank">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+
             </div>
-            <div class="col-md-6">
-              <div class="box">
-                <div class="detail-box">
-                  <h4>Subscribe to our event calendar</h4>
-                  <button type="button" class="btn btn-primary">
-                    <a href="https://calendar.google.com/calendar/u/0?cid=Ymlhc29mYm9zdG9uQGdtYWlsLmNvbQ" target="_blank" rel="noopener noreferrer">
-                      <i class="fa fa-calendar" aria-hidden="true"> Google Calendar </i>
-                    </a>
-                  </button>
+        </section>
+
+
+
+
+        <!-- Members Section-->
+        <section class="page-section bg-primary text-white mb-0" id="members">
+            <div class="container">
+                <!-- Members Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">Members</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
                 </div>
-              </div>
-            </div>  
+                <!-- Members Grid Items-->
+                <div class="row">
+                    <!-- Member Item 1-->
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="member-item">
+                            <img class="mx-auto rounded-circle member-img" src="assets/logos/iac.png" alt="Member Logo">
+                            <h5>Image Analysis Collaboratory</h5>
+                            <p>Harvard Medical School</p>
+                            <a href="http://iac.hms.harvard.edu" target="_blank"><i class="fas fa-globe"></i></a>
+                            <a href="https://twitter.com/HMS_IAC" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://maps.app.goo.gl/zGNEZVDtVnyQGJf78" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
+                            <a href="https://github.com/HMS-IAC" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="member-item">
+                            <img class="mx-auto rounded-circle member-img" src="assets/logos/broad.jpeg" alt="Member Logo">
+                            <h5>Cimini Lab</h5>
+                            <p>Broad Institute</p>
+                            <a href="https://cimini-lab.broadinstitute.org" target="_blank"><i class="fas fa-globe"></i></a>
+                            <a href="https://twitter.com/CiminiLab" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://goo.gl/maps/6CFZL3kXwSJ2" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
+
+                        </div>
+                    </div>
+
+
+                    <!-- Repeat for other members as needed -->
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Stay Connected Section-->
+        <section class="page-section" id="stay-connected">
+            <div class="container">
+                <!-- Stay Connected Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Stay Connected</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Stay Connected Content-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-xl-7 text-center">
+                        <p class="lead">Join our community and never miss an update. Get the latest news, events, and resources by subscribing to our Google Group and calendar.</p>
+                        <!-- Buttons -->
+                        <div class="row justify-content-center">
+                            <div class="col-sm-6 mb-2">
+                                <a href="https://groups.google.com/g/boston-bias" class="btn btn-primary btn-xl" target="_blank">
+                                    <i class="fas fa-users me-2"></i>Join Google Group
+                                </a>
+                            </div>
+                            <div class="col-sm-6 mb-2">
+                                <a href="https://calendar.google.com/calendar/u/0?cid=Ymlhc29mYm9zdG9uQGdtYWlsLmNvbQ" class="btn btn-primary btn-xl" target="_blank">
+                                    <i class="fas fa-calendar-alt me-2"></i>Subscribe to Calendar
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resources Section-->
+<section class="page-section" id="resources" style="background-color: #2c3e50;">
+    <div class="container">
+        <!-- Resources Section Heading-->
+        <h3 class="text-uppercase mb-4 text-center text-uppercase text-white">Resources & External Links</h3>
+        <!-- Icon Divider-->
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
         </div>
-      </div>
-    </section>
-
-
- 
-
-
-  <!-- resources section -->
-
-  <section id="resources" class="resources_section layout_padding">
-    <div class="resources_container">
-      <div class="container ">
-        <div class="heading_container heading_center">
-          <h2>
-            Useful Resources
-          </h2>
-          <p>
-          </p>
-        </div>
+        <!-- Resources Grid-->
         <div class="row">
-          <div class="col-md-6">
-            <div class="box">
-              <div class="detail-box">
-                <h4>BioImaging North America (BINA)</h4>
-                <button type="button" class="btn btn-primary">
-                  <a href="https://www.bioimagingnorthamerica.org" target="_blank" rel="noopener noreferrer">
-                    <i class="fa fa-globe" aria-hidden="true"> Website </i>
-                  </a>
-                </button>
-              </div>
+            <!-- Resource Item 1-->
+            <div class="col-md-4 text-left resource-item">
+                <a class="resource-link btn btn-outline-light mx-1" href="https://www.bioimagingnorthamerica.org"  target="_blank">
+                    <img src="assets/logos/bina.png" alt="BINA" class="resource-logo"> BioImaging North America (BINA)
+                </a>
             </div>
-          </div>
-          
-          <div class="col-md-6">
-            <div class="box">
-              <div class="detail-box">
-                <h4>Global BioImage Analysts' Society (GloBIAS)</h4>
-                <button type="button" class="btn btn-primary">
-                  <a href="https://www.globias.org" target="_blank" rel="noopener noreferrer">
-                    <i class="fa fa-globe" aria-hidden="true"> Website </i>
-                  </a>
-                </button>
-              </div>
+            <!-- Resource Item 2-->
+            <div class="col-md-4 text-left resource-item">
+                <a class="resource-link btn btn-outline-light mx-1" href="https://www.globias.org" target="_blank">
+                    <img src="assets/logos/globias.png" alt="GloBIAS" class="resource-logo"> Global BioImage Analysts' Society (GloBIAS)
+                </a>
             </div>
-          </div>  
-      </div>
+            <!-- Additional resources can be added here following the same structure -->
+        </div>
+
+        <div class="row">
+            <!-- Resource Item 1-->
+            <div class="col-md-2 text-left resource-item">
+                <a class="resource-link btn btn-outline-light mx-1" href="https://forum.image.sc"  target="_blank">
+                    <img src="assets/logos/forum.png" alt="Forum" class="resource-logo"> image.sc
+                </a>
+            </div>
+            <!-- Additional resources can be added here following the same structure -->
+        </div>
     </div>
-  </section>
-
-  <!-- end activities section -->
+</section>
 
 
-  
+        <!-- Footer-->
 
-  <!-- footer section -->
-  <section class="footer_section">
-    <div class="col-24">
-      <p>
-        Boston BIAS | 2024
-      </p>
-    </div>
-   
-  </section>
-  <!-- footer section -->
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; BostonBIAS 2024</small></div>
+        </div>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="actvities-modal modal fade" id="activitiesoModal1" tabindex="-1" aria-labelledby="actvitiesModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="actvities-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
-</body>
 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
 </html>
